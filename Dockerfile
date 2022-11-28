@@ -9,7 +9,6 @@ RUN npm install
 COPY . .
 EXPOSE 3000
 
-ENV NUXT_HOST=0.0.0.0
 
 RUN npm run build
 
